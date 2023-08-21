@@ -1,0 +1,94 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/default/out/Haptic",
+      "type": "vibration"
+    },
+    {
+      "name": "/actions/flashlight/in/moveCameraForward",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/flashlight/in/flashlightClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/flashlight/in/beamSizePlus",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/flashlight/in/freezeBeam",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/flashlight/in/switchMode",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/flashlight/in/moveCameraBackward",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/flashlight/in/beamSizeMinus",
+      "type": "boolean"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/flashlight",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "bindings_vive_controller.json"
+    },
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "bindings_oculus_touch.json"
+    },
+    {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    },
+    {
+      "controller_type": "holographic_controller",
+      "binding_url": "bindings_holographic_controller.json"
+    },
+    {
+      "controller_type": "vive",
+      "binding_url": "binding_vive.json"
+    },
+    {
+      "controller_type": "vive_pro",
+      "binding_url": "binding_vive_pro.json"
+    },
+    {
+      "controller_type": "rift",
+      "binding_url": "binding_rift.json"
+    },
+    {
+      "controller_type": "holographic_hmd",
+      "binding_url": "binding_holographic_hmd.json"
+    },
+    {
+      "controller_type": "vive_tracker_camera",
+      "binding_url": "binding_vive_tracker_camera.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/out/Haptic": "Haptic"
+    }
+  ]
+}
